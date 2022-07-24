@@ -1,0 +1,406 @@
+/*  FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f8fa;
+  overflow-x: hidden;
+}
+
+nav {
+  height: 10vh;
+  width: 100vw;
+  background-color: #4516fe;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.items {
+  margin-right: 66px;
+  cursor: pointer;
+}
+.nav-item-active {
+  margin-right: 30px;
+  font-size: 14px;
+  background-color: white;
+  color: #4516fe;
+  padding: 5px 13px;
+  border-radius: 6px;
+}
+
+.items svg {
+  position: relative;
+  top: 7px;
+  right: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 71px;
+  color: white;
+}
+
+.header-text {
+  height: 410px;
+  width: 100vw;
+  background-color: #4516fe;
+  color: white;
+}
+
+.header-text img {
+  margin-top: 98px;
+  margin-left: 74px;
+}
+
+.header-text h2 {
+  margin-top: 11px;
+  margin-left: 62px;
+
+  font-size: 40px;
+  line-height: 57px;
+  font-weight: 400;
+}
+
+.header-text p {
+  margin-top: 13px;
+  margin-left: 62px;
+
+  font-weight: 300;
+}
+
+.header-image {
+  position: absolute;
+  top: 81px;
+  right: 0;
+  height: 493px;
+  width: 617px;
+}
+
+/* companies section */
+.companies {
+  height: 95px;
+  width: 100vw;
+}
+
+.companies a {
+  display: inline-block;
+  color: black;
+  margin-top: 31px;
+  margin-left: 62px;
+  font-size: 24px;
+  font-family: "Righteous", cursive;
+}
+
+/* Api section */
+
+.api {
+  margin-left: 62px;
+}
+.api-heading {
+  margin-top: 46px;
+  font-size: 47px;
+}
+
+.cards {
+  display: flex;
+  margin-top: 45px;
+}
+
+.card-active {
+  padding-left: 22px;
+  padding-top: 34px;
+  margin-right: 10px;
+
+  height: 170px;
+  width: 202px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.card-body {
+  font-size: 14px;
+}
+.card {
+  padding-left: 22px;
+  padding-top: 34px;
+  margin-right: 10px;
+  height: 170px;
+  width: 202px;
+  border-radius: 10px;
+}
+.card:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.cards i {
+  height: 35px;
+  width: 35px;
+  padding: 12px 0px 7px 19px;
+  font-size: 30px;
+  margin-top: 66px;
+  margin-left: 0px;
+  border-radius: 30px;
+  background-color: #4516fe;
+  color: white;
+  cursor: pointer;
+}
+
+/* Blog section */
+
+.blog-heading {
+  margin-top: 25px;
+  height: 153px;
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-heading h1 {
+  margin-left: 62px;
+  font-size: 40px;
+}
+
+.blog-heading h5 {
+  font-size: 20px;
+  margin-right: 108px;
+  margin-top: 86px;
+  color: #4516fe;
+  cursor: pointer;
+}
+
+.blog-card {
+  display: flex;
+  margin-left: 62px;
+}
+.blog-content {
+  position: relative;
+  padding: 35px 13px 0px 47px;
+  box-sizing: border-box;
+  height: 332px;
+  width: 299px;
+  border-radius: 0px 20px 20px 0px;
+
+  background-color: #ffffff;
+}
+.blog-img {
+  width: 290px;
+}
+.blog-cards {
+  display: flex;
+  margin-top: 20px;
+}
+.blog-bottom img {
+  position: absolute;
+  bottom: -21px;
+  left: 45px;
+}
+.blog-content h3 {
+  margin-top: 10px;
+}
+.blog-content small {
+  display: inline-block;
+  margin-top: 24px;
+  font-weight: 500;
+}
+
+.blog-author {
+  width: 154px;
+  position: absolute;
+  bottom: 1px;
+  right: 19px;
+}
+.blog-author b {
+  font-size: 14px;
+}
+
+.fix-margin {
+  margin-left: 54px;
+}
+
+/* FAQ SECTION */
+
+.faq-section {
+  height: 393px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  background-color: #e9edff;
+}
+.faq-content {
+  margin-left: 62px;
+}
+
+.faq-content h2 {
+  font-size: 46px;
+  margin-top: 44px;
+}
+
+.faq-content h4 {
+  margin-top: 7px;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.faq-content .second-heading {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.faq-content button {
+  padding: 10px 20px;
+  background-color: #4516fe;
+  color: white;
+  border: none;
+  margin-top: 27px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faq-image img {
+  height: 393px;
+  width: 682px;
+}
+
+/* DOWNLOAD SECTION */
+
+.download-section {
+  position: relative;
+  height: 270px;
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.download-content {
+  margin-left: 62px;
+}
+
+.download-content h1 {
+  font-size: 35px;
+}
+.download-content span {
+  font-weight: 400;
+}
+
+.download-email {
+  margin-right: 82px;
+}
+.download-email input {
+  width: 439px;
+  height: 56px;
+  border-radius: 26px;
+
+  padding-left: 40px;
+  border: none;
+  background-color: #e9edff;
+}
+
+.download-email input::placeholder {
+  font-weight: 500;
+  color: black;
+}
+
+.download-email button {
+  background-color: #4516fe;
+  border: none;
+  padding: 13px 45px;
+  color: white;
+  position: absolute;
+  top: 112px;
+  right: 89px;
+  border-radius: 31px;
+  cursor: pointer;
+}
+
+/* footer section */
+
+.footer-section {
+  position: relative;
+  height: 270px;
+  width: 100vw;
+  background-color: #4516fe;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left ul {
+  display: flex;
+  margin-left: 62px;
+  margin-top: 20px;
+}
+
+.footer-left img {
+  margin-left: 62px;
+  margin-top: 89px;
+  height: 54px;
+  width: 157px;
+  color: #ffffff;
+}
+
+.footer-left ul li {
+  margin-right: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-right {
+  margin-right: 45px;
+  margin-top: 40px;
+}
+.footer-logos {
+  margin-right: 20px;
+  height: 46px;
+  width: 49px;
+  cursor: pointer;
+}
+
+.margin-last {
+  margin-right: 0px;
+}
+
+.logos-list {
+  display: flex;
+  color: white;
+  margin-top: 123px;
+}
+
+.list-items {
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.list-items img {
+  width: 41px;
+  height: 3px;
+  background-color: #ffffff;
+  -webkit-transform: rotate(90deg);
+}
+.logos {
+  position: absolute;
+  top: 90px;
+  right: 100px;
+}
