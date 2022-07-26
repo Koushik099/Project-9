@@ -397,10 +397,30 @@ nav {
   width: 41px;
   height: 3px;
   background-color: #ffffff;
-  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 .logos {
   position: absolute;
   top: 90px;
   right: 100px;
+}
+
+/* Custom ScrollBar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff6263;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e21717;
 }
